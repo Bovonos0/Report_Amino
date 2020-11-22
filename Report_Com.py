@@ -2,7 +2,7 @@ import amino
 import os
 red="\033[0;31m"
 client=amino.Client()
-email=email("Type Your Email: ")
+email=input("Type Your Email: ")
 password=input("Type Your Password: ")
 try:
 	client.login(email=email ,password=password)
